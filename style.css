@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.portfolio-menu {
+  text-align: center;
+}
+
+.portfolio-menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 15px;
+  border: 1px solid tomato;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.active,
+.portfolio-menu ul li:hover {
+  color: #fff;
+  background-color: tomato;
+}
+
+
+.portfolio-item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item .item {
+  width: 320px;
+  margin: 1rem;
+  
+}
+
+.portfolio-item .item img {
+  width: 100%;
+}
